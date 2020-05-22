@@ -18,7 +18,7 @@ specific=""
 def main():
     print("Start")
     topic=input("TOPIC")
-    specific=input("specific??")
+    specific=input("specific")
     topic = topic+" "+"books"
     googleSearch(topic)
     find_books()
