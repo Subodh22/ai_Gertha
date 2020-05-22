@@ -17,7 +17,7 @@ list_of_urls=[]
 specific=""
 def main():
     print("Start")
-    topic=input("TOPIC??")
+    topic=input("TOPIC")
     specific=input("specific??")
     topic = topic+" "+"books"
     googleSearch(topic)
